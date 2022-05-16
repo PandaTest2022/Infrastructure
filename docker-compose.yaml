@@ -1,3 +1,5 @@
+version: '2.4'
+
 services:
   artifactory:
     image: docker.bintray.io/jfrog/artifactory-jcr:latest
