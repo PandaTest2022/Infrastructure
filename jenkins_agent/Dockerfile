@@ -7,3 +7,5 @@ RUN groupadd -g 997 docker \
     && usermod -aG docker jenkins \
     && curl -fsSL https://get.docker.com/ | sh
 
+RUN apt-get update && apt-get install -y unzip ansible
+
